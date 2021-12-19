@@ -3,14 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AboutComponent } from './about/about.component';
+import { UniversidadComponent } from './universidad/universidad.component';
+import { MaterialModule } from './material/material.module';
+import { NavigationComponent } from './navigation/navigation.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    UniversidadComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
